@@ -1,12 +1,12 @@
-/* eslint-disable react/jsx-no-undef */
 /*
  * @Descripttion: 
  * @version: 
- * @Author: sueRimn
- * @Date: 2020-11-29 13:57:54
- * @LastEditors: sueRimn
- * @LastEditTime: 2020-11-29 16:15:59
+ * @Author: lei
+ * @Date: 2020-11-29 15:50:46
+ * @LastEditors: lei
+ * @LastEditTime: 2020-11-29 16:22:11
  */
+
 import React, { Component } from 'react';
 import Modal from '../../components/modal/modal';
 import './index.css'
