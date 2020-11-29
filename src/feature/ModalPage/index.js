@@ -5,7 +5,7 @@
  * @Author: sueRimn
  * @Date: 2020-11-29 13:57:54
  * @LastEditors: sueRimn
- * @LastEditTime: 2020-11-29 14:52:45
+ * @LastEditTime: 2020-11-29 16:15:59
  */
 import React, { Component } from 'react';
 import Modal from '../../components/modal/modal';
@@ -41,7 +41,7 @@ class ModalExample extends Component {
                     onCancel={this.onCancel}
                     className={'box01-modal-wrapper'}
                 >
-                   <div>134886885566</div> 
+                   <div>134886866</div> 
                 </ Modal>
             </>
          );
