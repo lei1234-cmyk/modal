@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.b1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    /* visibility: hidden; */
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.xBox {
+    width: 520px;
+    /* height: 224px; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    width: auto;
+    height: 40px;
+    margin-left: 22px;
+    /* border-bottom: 1px solid #555; */
+    margin-top: 20px;
+
+}
+
+.p1 {
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 20px 0px 20px 22px;
+}
+
+.btn {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 22px 30px 0px;
+    /* align-items: center; */
+}
+
+button {
+    margin-left: 10px;
+    background-color: rgb(24, 144, 255);
+    border: transparent;
+    width: 64px;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.lBtn {
+    background-color: #eee;
+    border: 1px solid rgb(24, 144, 255);
+    color: rgb(24, 144, 255);
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgb(24, 144, 255);
+    border: 1px solid rgb(24, 144, 255);
+}
+
+button:active {
+    background-color: #bbb;
+    color: rgb(24, 144, 255);
+    border: 1px solid rgb(24, 144, 255);
+}
+
+.lBtn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.lBtn:active {
+    background-color: #bbb;
+    border: 1px solid black;
+    color: black;
+}
